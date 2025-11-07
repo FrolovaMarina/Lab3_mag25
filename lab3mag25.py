@@ -38,7 +38,7 @@ models = {
     #Линейная регрессия 
     'Linear Regression': LinearRegression(), 
     #Опорные векторы
-    'SVM': SVR()
+    'SVR': SVR()
 }
 
 results = {}
@@ -109,4 +109,5 @@ for index, value in enumerate(corr_fixed.values):
     
 plt.axvline(x=0, color='black', linestyle='-', alpha=0.3)
 plt.show()
+
 
